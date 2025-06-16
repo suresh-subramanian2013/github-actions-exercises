@@ -3,9 +3,9 @@ name: Continuous Integration
 on:
   workflow_dispatch:
 jobs:
-  lint:
-    name: Lint
+  build:
+    name: print
     runs-on: ubuntu-latest
     steps:
-      - name: Clone
+      - name: print workflow name
         run: echo "first workflow"
